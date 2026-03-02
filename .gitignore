@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# pytest / coverage
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+
+# Allure reports (генерируемые)
+target/
+allure-report/
+allure-results/
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
